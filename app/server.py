@@ -8,10 +8,10 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
-
-#export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_url = "https://drive.google.com/open?id=1-71KDXHnmP8xJ602FWywnXF-03R1EKUu"
-export_file_name = 'export.pkl'
+#https://drive.google.com/open?id=1-71KDXHnmP8xJ602FWywnXF-03R1EKUu
+#https://drive.google.com/open?id=12lZzTvkcccY04Yfg5EZKxU4X1XR-PKPM
+export_file_url = 'https://drive.google.com/uc?export=download&id=12lZzTvkcccY04Yfg5EZKxU4X1XR-PKPM'
+export_file_name = 'models/export.pkl'
 
 classes = ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street']
 path = Path(__file__).parent
